@@ -1,5 +1,20 @@
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #676767;
+    border-radius: 10px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: purple;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+
 body{
-    background-image: url("../imagens/fundo-site.jpg");
+    background-image: url("../imagens/gif-fundo.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
