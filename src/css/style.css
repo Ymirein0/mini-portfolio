@@ -37,6 +37,7 @@ body{
     border: 2px solid #e126d9;
     border-radius: 10px;
     overflow: hidden;
+    opacity: 0.8;
 }
 
 .card .myInfo{

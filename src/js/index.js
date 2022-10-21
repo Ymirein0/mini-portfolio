@@ -8,14 +8,13 @@ abas.forEach(aba => {
         if (aba.classList.contains("select")){
             return;
         }
-
         selectTab(aba)
         showTabInfo(aba)
     });
 });
 
 function selectTab(aba){
-    //3 - quando o usuario clicar, remover o selecionado da aba
+    //3 - remover o selecionado da aba que estava selecionada antes
     const abaSelecionada = document.querySelector(".tab.select");
     abaSelecionada.classList.remove("select");
 
